@@ -14,7 +14,7 @@ public class AspiringLearner {
     private String[] hobbies = {"Music", "Cooking", "Travelling", "Meditating"};
 
     public void sayHi() {
-        System.out.println("Thanks for dropping by, have a safe and productive day!");
+        System.out.println("Hello there! I am an aspiring learner from Ho Chi Minh city! I am learning a lot about programming and the English language, I hope to become a developer one day!");
     }
 }
 
