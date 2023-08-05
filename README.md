@@ -1,16 +1,26 @@
 ### Hi there 👋
 
-<!--
-**nghiatran9397/nghiatran9397** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+```java
+import java.util.List;
+import java.util.Arrays;
 
-Here are some ideas to get you started:
+public class AspiringLearner {
+    private String name = "Rykon";
+    private LocalDate dateOfBirth = LocalDate.of(1997, 3, 9);
+    private String currentResidency = "Ho Chi Minh City, Vietnam";
+    private String role = "Aspiring Learner";
+    private List<String> spokenLanguages = Arrays.asList("vi_VN");
+    private String[] languagesBeingLearned = {"Java", "C#", "JavaScript", "HTML", "CSS"};
+    private String[] hobbies = {"Music", "Cooking", "Travelling", "Meditating"};
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+    public void sayHi() {
+        System.out.println("Thanks for dropping by, have a safe and productive day!");
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        AspiringLearner me = new AspiringLearner();
+        me.sayHi();
+    }
+}
